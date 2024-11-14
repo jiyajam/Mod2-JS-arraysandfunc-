@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <title>Five Numbers</title>
+</head>
+  <body>
+    <script>
+      let numbers = [];
+
+      for (let i = 0; i < 5; i++) {
+        numbers.push(parseFloat(prompt("Enter a number:")));
+      }
+
+      for (let i = numbers.length - 1; i >= 0; i--) {
+        console.log(numbers[i]);
+      }
+    </script>
+  </body>
+</html>
+
